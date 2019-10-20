@@ -5,10 +5,12 @@ Why phusion and not ubuntu? Have a look to this:
 https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/
 
 ## Sample app
-TBD
+Have a look to the [app](./app/README.md).
 
 ## Your app
-TBD
+Put you code in the /app folder.
+
+IMPORTANT: in order to start your application at container's startup, remember to edit "myapp.run" accordingly. That's the way to start an application (DO NOT add any CMD to the Dockerfile). 
 
 ## SSH Keys
 Have a look to the [keys](./keys/README.md).
@@ -20,7 +22,10 @@ TBD
 TBD
 
 ## VSCODE: sample config file for the SFTP extension
-Assuming you use pageant to manage the key authentication:
+Assuming that:
+* you use pageant to manage the key authentication (recommended!)
+* your docker host ip is 192.168.2.96
+
 ```
 {
     "name": "mydocker",
@@ -34,3 +39,5 @@ Assuming you use pageant to manage the key authentication:
     "uploadOnSave": true
 }
 ```
+
+If the container is running, vscode will automatically upload the code you are editing to the remote container via SSH.
