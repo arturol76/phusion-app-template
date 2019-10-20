@@ -42,6 +42,7 @@ IMPORTANT: the container must be running.
 Assuming that:
 * you use pageant to manage the key authentication (recommended!)
 * your docker host ip is 192.168.2.96
+* you are exposing SSH on port 7122
 
 ```
 {
