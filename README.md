@@ -5,7 +5,7 @@ Why phusion and not ubuntu? Have a look to this:
 https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/
 
 ## Sample app
-Have a look to the [app](./app/README.md).
+Have a look to the [app](./app).
 
 ## Your app
 Put you code in the /app folder.
