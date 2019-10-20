@@ -28,7 +28,11 @@ To build it on a remote docker host:
 docker -H YOUR_DOCKER_HOST_IP build -t YOUR_IMAGE_NAME .
 ```
 
-Have a look also to the script [build.sh](./build.sh).
+...or just you the the provided build script [build.sh](./build.sh) as follows:
+
+```
+./build.sh YOUR_DOCKER_HOST_IP YOUR_IMAGE_NAME
+```
 
 ## Run
 TBD
