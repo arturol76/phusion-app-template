@@ -16,7 +16,19 @@ IMPORTANT: in order to start your application at container's startup, remember t
 Have a look to the [keys](./keys).
 
 ## Build
-TBD
+To build the docker on a local docker host:
+
+```
+docker build -t YOUR_IMAGE_NAME .
+```
+
+To build it on a remote docker host:
+
+```
+docker -H YOUR_DOCKER_HOST_IP build -t YOUR_IMAGE_NAME .
+```
+
+Have a look also to the script [build.sh](./build.sh).
 
 ## Run
 TBD
