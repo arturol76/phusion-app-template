@@ -13,7 +13,7 @@ Put you code in the /app folder.
 IMPORTANT: in order to start your application at container's startup, remember to edit "myapp.run" accordingly. That's the way to start an application (DO NOT add any CMD to the Dockerfile). 
 
 ## SSH Keys
-Have a look to the [keys](./keys/README.md).
+Have a look to the [keys](./keys).
 
 ## Build
 TBD
