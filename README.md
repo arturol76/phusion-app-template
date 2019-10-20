@@ -4,11 +4,14 @@ Docker template to containerize an application using [arturol76/phusion-baseimag
 Why phusion and not ubuntu? Have a look to this:
 https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/
 
+## Sample app
+TBD
+
 ## Your app
 TBD
 
-## SSH keys
-TBD
+## SSH Keys
+Have a look to the [keys](./keys/README.md).
 
 ## Build
 TBD
